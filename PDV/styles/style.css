@@ -1,0 +1,282 @@
+@font-face{
+    font-family: Bf;
+    src: url("../fonts/BeautifulPeoplePersonalUse-dE0g.ttf");
+    font-weight: bold;
+}
+@font-face{
+    font-family: Gl;
+    src: url("../fonts/Glint\ Black.otf");
+    font-weight: bold;
+}
+@font-face{
+    font-family: Lv;
+    src: url("../fonts/Lovelo-Black.ttf");
+    font-weight: bold;
+}
+@font-face{
+    font-family: Ok;
+    src: url("../fonts/Okami.otf");
+    font-weight: bold;
+}
+
+.Ok{font-family: Ok;}
+.Gl{font-family: Gl;}
+.Lv{font-family: Lv;}
+.Bf{font-family: Bf;}
+
+*{margin: 0; padding-left: 0;}
+
+body{
+    position: absolute;
+    width: 100%;
+}
+
+header{
+    padding: 50px 0px;
+    font-weight: bold;
+    justify-items: center;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 50px;
+    color: rgb(255 , 255, 0);
+    background-color: rgb(34, 32, 32);
+}
+
+header .title{
+    justify-self: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+
+.small{
+    font-size: 25px;
+}
+
+header .artist{
+    font-size: 50px;
+}
+
+.over{
+    z-index: 0;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    color: white;
+    margin: 0 auto;
+    justify-items: center;
+    justify-content: center;
+}
+
+.btns{
+    z-index: 1;
+    align-self: center;
+    justify-self: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: absolute;
+    top: -30px;
+    font-family: Gl;
+}
+
+.btn{
+    margin: 0 5px;
+    z-index: 1;
+    display: inline-block;
+    top: -30px;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: rgb(0, 255, 13);
+}
+
+.btnReady{
+    z-index: 1;
+    margin: 0 5px;
+    display: inline-block;
+    top: -30px;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: rgb(255, 0, 0);
+}
+
+.pre_cmdHeader{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.go{
+    text-align: center;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 30px 0;
+    font-family: Gl;
+    background-color: rgb(0, 255, 13);
+}
+
+.over .btn a, .go, .go a, .over .btnReady a{
+    align-self: center;
+    justify-self: center;
+    font-family: Gl;
+    color: black;
+}
+
+.sndArtist{
+    font-size: 15px;
+}
+
+.signature{
+    font-size: 15px;
+    width: 100%;
+    display: flex;
+    align-self: flex-end;
+    justify-content: center;
+    position: absolute;
+    text-align: center;
+    bottom: 5px;
+}
+
+main{
+    text-align: center;
+    align-items: center;
+    padding: 50px 0px;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 25px;
+    padding-bottom: 100px;
+}
+
+main .trackTitle{
+    font-size: 50px;
+    color: rgb(255, 0, 0);
+    margin-bottom: 50px;
+}
+
+main ul li,  .pre_CmdInside ul li{
+    text-decoration: none;
+    list-style: none;
+    margin: 15px 15px;
+}
+
+main ul li a{
+    color: rgb(0, 0, 0);
+}
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: red;
+}
+
+footer{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    bottom: 20px;
+    position: fixed;
+}
+
+.streaming, .following{
+    z-index: 99999;
+    background-color: rgb(34, 32, 32);
+    color: white;
+    padding: 20px 30px;
+    width: 100%;
+    display: flex;
+    top: 0; bottom: 10vh;
+    align-items: center;
+    /* justify-content: space-between; */
+    position: fixed;
+}
+
+
+.streaming .pre_cmdHeader, .following .pre_cmdHeader{
+    font-size: 30px;
+    color: rgb(255 , 255, 0);
+}
+
+.streaming .close{
+    font-size: 50px;
+    text-align: center;
+    padding: 10px;
+}
+
+.streaming ul li, .following ul li{
+    list-style: none;
+    margin: 10px 0;
+}
+
+.following div{
+    margin: 10px 20px;
+}
+
+.streaming ul li a, .following ul li a{
+    color: white;
+    display: inline-block;
+    align-self: center;
+    text-align: center;
+}
+.following ul li{
+    display: flex;
+}
+
+.imgFollowing{
+    display: inline-block;
+    margin-right: 15px !important;
+}
+
+.sociaux, .actions{
+    margin: 10px 0;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: rgb(34, 32, 32);
+}
+
+.sociaux ul li, .sociaux ul li a{
+    list-style: none;
+    display: inline-block;
+    text-decoration: none;
+}
+.imgFollowing, .sociaux ul li a img{
+    width: 30px !important;
+}
+
+.sociaux .pBtn, .actions .pBtn, .sociaux .pBtn a, .actions .pBtn a{
+    color: white;
+}
+.date{
+    font-size: 20px;
+    color: white;
+}
+
+.pre_cmd{
+    width: 100%;
+    display: flex;
+    text-align: left;
+    align-items: center;
+    justify-content: space-around;
+    bottom: 10px;
+    top: 10px;
+    position: fixed;
+    color: black;
+}
+
+.pre_CmdInside{
+    z-index: 2;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    background-color: rgb(92, 86, 86);
+    color: white;
+}
+
+.pre_CmdInside div ul li a{
+    color: yellow;
+}
