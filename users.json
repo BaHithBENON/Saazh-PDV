@@ -11,7 +11,7 @@
     "picture": "https://bahithbenon.github.io/Saazh-PDV/image.jpg",
     "couverture": "",
     "is_public": "false",
-    "auto_friendship": "true",
+    "auto_friendship": "true"
   },
   {
     "id" : 3,
@@ -25,6 +25,6 @@
     "picture": "https://bahithbenon.github.io/Saazh-PDV/image.jpg",
     "couverture": "",
     "is_public": "false",
-    "auto_friendship": "false",
+    "auto_friendship": "false"
   },
 ]
