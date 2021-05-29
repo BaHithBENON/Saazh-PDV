@@ -9,6 +9,6 @@
     "password" : "123456789",
     "picture": "https://bahithbenon.github.io/Saazh-PDV/image.jpg",
     "couverture": "",
-    "is_public": "false",
-    "auto_friendship": "false"
+    "is_public": false,
+    "auto_friendship": false
 }
