@@ -8,7 +8,7 @@
     "bio": "Not yet bio",
     "password" : "123456789",
     "picture": "https://bahithbenon.github.io/Saazh-PDV/image.jpg",
-    "couverture": "",
+    "couverture": "https://bahithbenon.github.io/Saazh-PDV/cover.jpg",
     "is_public": false,
     "auto_friendship": false
 }
