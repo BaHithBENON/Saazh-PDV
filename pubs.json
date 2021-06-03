@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "author": {
+      "id" : 3,
+      "username" : "@sucrerierouge",
+      "phone_number" : "61444794",
+      "firstname": "Sucrerie",
+      "lastname": "Rouge",
+      "email": "kali@gmail.com",
+      "bio": "Comptable",
+      "password" : "123456789",
+      "picture": "https://bahithbenon.github.io/Saazh-PDV/i5.jpg",
+      "couverture": "https://bahithbenon.github.io/Saazh-PDV/cover.jpg",
+      "is_public": false,
+      "auto_friendship": false
+    },
+    "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+    "files": [
+      "https://bahithbenon.github.io/Saazh-PDV/i1.jpg",
+      "https://bahithbenon.github.io/Saazh-PDV/i3.jpg",
+      "https://bahithbenon.github.io/Saazh-PDV/i4.jpg"
+    ],
+    "likes": 25,
+    "repost": 48,
+    "comment": 325
+  },
+  {
+    "id": 2,
+    "author": {
+      "id" : 2,
+      "username" : "@mektoub",
+      "phone_number" : "61444794",
+      "firstname": "Mektoub",
+      "lastname": "Markus",
+      "email": "mektoubalabi@gmail.com",
+      "bio": "Basketeur AET",
+      "password" : "123456789",
+      "picture": "https://bahithbenon.github.io/Saazh-PDV/i15.jpg",
+      "couverture": "https://bahithbenon.github.io/Saazh-PDV/cover.jpg",
+      "is_public": false,
+      "auto_friendship": false
+    },
+    "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+    "files": [],
+    "likes": 0,
+    "repost": 0,
+    "comment": 0
+  },
+  {
+    "id": 3,
+    "author": {
+      "id" : 4,
+      "username" : "@elodiehazouard",
+      "phone_number" : "61444794",
+      "firstname": "Elodie",
+      "lastname": "Hazouard",
+      "email": "elodihazouard15@gmail.com",
+      "bio": "Comptable",
+      "password" : "123456789",
+      "picture": "https://bahithbenon.github.io/Saazh-PDV/i13.jpg",
+      "couverture": "https://bahithbenon.github.io/Saazh-PDV/cover.jpg",
+      "is_public": false,
+      "auto_friendship": false
+    },
+    "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+    "files": [
+      "https://bahithbenon.github.io/Saazh-PDV/i8.jpg"
+    ],
+    "likes": 11,
+    "repost": 24,
+    "comment": 0
+  },
+  {
+    "id": 4,
+    "author": {
+      "id" : 6,
+      "username" : "@loclear",
+      "phone_number" : "61444794",
+      "firstname": "Locklear",
+      "lastname": "Lokc",
+      "email": "lockearindustrie@gmail.com",
+      "bio": "Gamer & Streamer Twitch",
+      "password" : "123456789",
+      "picture": "https://bahithbenon.github.io/Saazh-PDV/i12.jpg",
+      "couverture": "https://bahithbenon.github.io/Saazh-PDV/cover.jpg",
+      "is_public": false,
+      "auto_friendship": false
+    },
+    "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+    "files": [],
+    "likes": 255,
+    "repost": 1446,
+    "comment": 12255
+  },
+  {
+    "id": 5,
+    "author": {
+      "id" : 9,
+      "username" : "@jeeltv",
+      "phone_number" : "61444794",
+      "firstname": "Jeel",
+      "lastname": "TV",
+      "email": "jeeltv@gmail.com",
+      "bio": "Streameuse Twitch & Youtube",
+      "password" : "123456789",
+      "picture": "https://bahithbenon.github.io/Saazh-PDV/i5.jpg",
+      "couverture": "https://bahithbenon.github.io/Saazh-PDV/cover.jpg",
+      "is_public": false,
+      "auto_friendship": false
+    },
+    "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+    "files": [
+      "https://bahithbenon.github.io/Saazh-PDV/i9.jpg",
+      "https://bahithbenon.github.io/Saazh-PDV/i10.jpg"
+    ],
+    "likes": 25,
+    "repost": 48,
+    "comment": 325
+  },
+  {
+    "id": 6,
+    "author": {
+      "id" : 19,
+      "username" : "@maghla",
+      "phone_number" : "61444794",
+      "firstname": "Maghla",
+      "lastname": "Maghla",
+      "email": "magla@gmail.com",
+      "bio": "Streameuse & Déssinatrice",
+      "password" : "123456789",
+      "picture": "https://bahithbenon.github.io/Saazh-PDV/i11.jpg",
+      "couverture": "https://bahithbenon.github.io/Saazh-PDV/cover.jpg",
+      "is_public": false,
+      "auto_friendship": false
+    },
+    "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+    "files": [
+      "https://bahithbenon.github.io/Saazh-PDV/i5.jpg",
+      "https://bahithbenon.github.io/Saazh-PDV/i6.jpg"
+    ],
+    "likes": 15580,
+    "repost": 156,
+    "comment": 654
+  }
+]
